@@ -232,7 +232,7 @@ footer {
 section {
     padding: 20px;
     margin: 15px auto;
-    max-width: 800px;
+    max-width: 980px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -248,4 +248,54 @@ section p {
     font-size: 1.2em;
     color: #666;
     line-height: 1.6;
+}
+
+.card-produto {
+    width: 400px;
+    border: 1px solid #897777;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .card-produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-produto h3 {
+    margin: 20px ;
+  }
+  
+  .card-produto p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .card-produto a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .card-produto a:hover {
+    background-color: #3e8e41;
+  }
+
+  .produtos {
+    display: flex;
+  
+    justify-content: center;
+}
+
+.card-produto {
+    /* Estilos dos cards como definidos anteriormente */
+    width: 400px;
+    margin: 0px;
 }

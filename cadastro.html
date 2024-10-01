@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOBTIES</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cadastro2.css"> </head>
     <style>
         /* Estilos Globais */
         body {
@@ -117,92 +117,35 @@
             font-size: 14px;
         }
     </style>
-</head>
 <body>
-    <!-- Menu de Navegação -->
+    <div>
+        
+    </div>
     <nav>
         <ul>
-            <li><a href="#home">Início</a></li>
+            <li><a href="index.html">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#contato">Contato</a></li>
-            <li><a href="cadastro.html">Login</a></li>
+            <li><a href="cadastro2.html">Cadastro</a></li>
         
         </ul>
     </nav>
-
-    <!-- Slider de Banner -->
-    <div class="slider" id="home">
-        <div class="slides">
-            <div class="slide">
-                <img src="fotos/ruru.png" alt="Banner 1">
-            </div>
-            <div class="slide">
-                <img src="fotos/mav.png" alt="Banner 2">
-            </div>
-            <div class="slide">
-                <img src="fotos/fabfabafbafbafbafbabfab.png" alt="Banner 3">
-            </div>
-        </div>
+    <div class="bola">
+    <div class="login-container">
+       <div class="login-header">
+         <div>Login</div>
+       </div>
+       <input type="text" class="login-input" placeholder="Email" id="email">
+       <input type="text" class="login-input" placeholder="Usuário" id="username">
+       <input type="password" class="login-input" placeholder="Senha (Min-8, Max-15)" id="password" maxlength="15" minlength="8">
+       <button class="login-button" id="login-button">Login</button>
+       <div>
+        <br>
+        <h6>Se não possui uma conta <a href="cadastro2.html">Cadastre</a>.</h6>
     </div>
-
-    <!-- Cards com Flexbox -->
-    <div class="container" id="servicos">
-        <div class="card">
-            <h2>Apolo Nästy</h2>
-            <img src="fotos/ruru225.png" alt="">
-            <p>Álbum do Rudies Flacko</p>
-        </div>
-        <div class="card">
-            <h2>ATÉ QUE NÃO HAJA LUZ (+ONYX)</h2>
-            <img src="fotos/images.jpg" alt="">
-            <p>Álbum do mavyrmldy</p>
-        </div>
-        <div class="card">
-            <h2>the life of melody!</h2>
-            <img src="fotos/maaaaaaa.jpg" alt="">
-            <p>Álbum do mavyrmldy</p>
-        </div>
-    </div>
-    <section class="produtos">
-        <div class="card-produto">
-            <img src="fotos/Blusão Chrome Diamonds Black.webp" alt="Produto 1">
-            <h3>Blusão Chrome Diamonds Black</h3>
-            <br>
-            <br>
-            <p>Moletom cravejado com diamantes.</p>
-            <p>R$ 179,99</p>
-            <a href="produtoblusa.html">Comprar</a>
-        </div>
-        <div class="card-produto">
-            <img src="fotos/Calça Moletom Chrome Diamonds Black.webp" alt="Produto 2">
-            <h3>Calça Moletom Chrome Diamonds Black</h3>
-            <p>Calça moletom cravejado de diamante.</p>
-            <p>R$ 149,99</p>
-            <a href="produtocalca.html">Comprar</a>
-        </div>
-        <div class="card-produto">
-            <img src="https://fullofthatclout.online/cdn/shop/files/AC597E99-EE27-491D-8459-300A10FE2B7D.jpg?v=1710853195&width=1100" alt="Produto 2">
-            <h3>Touca Nasty - Black</h3>
-            <br>
-            <br>
-            <br>
-            <p>Touca 100% algodao tamanho único.</p>
-            <p>R$ 99,90</p>
-            <a href="produtotouca.html">Comprar</a>
-        </div>
-        <div class="card-produto">
-            <img src="https://fullofthatclout.online/cdn/shop/files/MOLETOMROSA.png?v=1708301023&width=1100" alt="Produto 2">
-            <h3>Trucker Blockkstar with Fuckknasty</h3>
-            <br>
-            <p>Trucker Blockkstar e Fuckknasty tamanho único.</p>
-            <p>R$ 129,90</p>
-            <a href="produtocap.html">Comprar</a>
-        </div>
-        </section>
-
-
-    <!-- Footer -->
+    </div>  
+</div>
     <footer id="contato">
         <div class="footer-content">
             <div class="footer-section">
@@ -214,7 +157,7 @@
             <div class="footer-section">
                 <h2>Links Rápidos</h2>
                 <ul>
-                    <li><a href="#home">Início</a></li>
+                    <li><a href="index.html">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -228,9 +171,9 @@
             <div class="footer-section">
                 <h2>Siga-nos</h2>
                 <div class="social-links">
-                    <a href="https://facebook.com/" class="social-icon">Facebook</a>
-                    <a href="https://twitter.com/" class="social-icon">Twitter</a>
-                    <a href="https://instagram.com/" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
                 </div>
             </div>
         </div>
@@ -238,5 +181,5 @@
             <p>&copy; 2024 Exemplo de Empresa. Todos os direitos reservados.</p>
         </div>
     </footer>
-</body>
+    
 </html>
